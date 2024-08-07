@@ -88,57 +88,29 @@ def getRelatorio(days=None):
 #def serviceName(name):
 #  match name:
 #    case 184:
-#      return "Banco de Dados - Status"
+#      return "Banco de Dados"
 #    case 212:
 #      return "Firewall"
-#    case 187:
-#      return "SIE"
 #    case 196:
 #      return "DNS"
 #    case 229:
 #      return "Ldap"
 #    case 235:
 #      return "Storage"
-#    case 224:
-#      return "Site"
-#    case 129:
-#      return "Portais"
-#    case 210:
-#      return "POPRS - Link"
-#    case 234:
-#      return "Openstack"
-#    case 250:
-#      return "Banco de dados - Rotinas"
-#    case 233:
-#      return "Eduroam"
 #    case _:
 #      return "Serviço não registrado"
 
 def serviceName(name):
   if name == '184':
-      return "Banco de Dados - Status"
+      return "Banco de Dados"
   elif name == '212':
       return "Firewall"
-  elif name == '187':
-      return "SIE"
   elif name == '196':
       return "DNS"
   elif name == '229':
       return "Ldap"
   elif name == '235':
       return "Storage"
-  elif name == '224':
-      return "Site"
-  elif name == '129':
-      return "Portais"
-  elif name == '210':
-      return "POPRS - Link"
-  elif name == '234':
-      return "Openstack"
-  elif name == '250':
-      return "Banco de dados - Rotinas"
-  elif name == '233':
-      return "Eduroam"
   else:
       return "Serviço não registrado"
 
