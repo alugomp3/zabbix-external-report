@@ -1,0 +1,4 @@
+py-zabbix
+jinja2
+docxtpl
+openai
